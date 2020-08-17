@@ -1,0 +1,584 @@
+body {background-color: #9dd2a8; 
+	  margin:0px;}
+head{margin: 0;} /* removing default margin from head */
+
+div.ERCLOGO{
+	margin-top:10px;
+	margin-left:10px;
+	float:left;
+}
+
+div.CCLOGO{
+	margin-top:10px;
+	margin-right: 10px;
+	float: right;
+}
+
+.btnHomepage{
+	float:left;
+	margin-Left:20px;
+	
+}
+div.LoginForm{
+	
+	position: center;
+}
+
+.container {
+	
+	width: 40%;
+	clear: both;
+	
+	text-align: center;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+
+.containerBox{
+	
+	width:600px;
+	clear:both;
+	float:center;
+	background:blue;
+	
+	
+}
+
+input[name=LoginBtn] { 
+	width:20%;
+	margin-left:40%;
+	margin-right:auto;
+	clear: both;
+	
+	}
+ 
+.container input {
+	width: 100%;
+	clear: both;
+	text-align: center;
+}
+
+.banner{
+	color: #ffffff;
+	float:left;
+	width: 100%;
+	height: 120px;
+	margin: 0px;
+	border-top-color: #9a9a9a;
+	border-top-width: 5px;
+	border-bottom-color: #9a9a9a;
+	border-bottom-width: 5px;
+}
+
+h1{color:#FFFFFF;}	
+h2{color:#FFFFFF;
+   font-size:20px;}	
+
+#rectangle{
+	clear:both;
+	border-top:10px solid #9a9a9a;
+	width:100%;
+	min-height:120px;
+	background-color:#36a44d;
+	text-align: center;
+	
+		
+}
+
+#rectangleContainer{
+	clear:both;
+	width: 100%;
+	min-height: 140px;
+	background-color: #9a9a9a;
+}
+
+.clear{
+	clear:both;
+}
+.btn {
+  -webkit-border-radius: 12;
+  -moz-border-radius: 12;
+  width: 220px;
+  height: 60px;
+  margin-left: 42.5%;
+  text-align: center;
+  border-radius: 12px;
+  font-family: Arial;
+  color:  #ffffff;
+  font-size: 20px;
+  background: #36a44e;
+  padding: 10px 20px 10px 20px;
+  border: solid #9a9a9a 6px;
+  text-decoration: none;
+}
+
+.Superbtn{
+	margin-top: 309px;
+	-webkit-border-radius: 12;
+  -moz-border-radius: 12;
+  width: 220px;
+  height: 60px;
+  margin-left: 42.5%;
+  text-align: center;
+  border-radius: 12px;
+  font-family: Arial;
+  color:  #ffffff;
+  font-size: 20px;
+  background: #36a44e;
+  padding: 10px 20px 10px 20px;
+  border: solid #9a9a9a 6px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #1fdb45;
+  text-decoration: none;
+}
+.Superbtn:hover {
+  background: #1fdb45;
+  text-decoration: none;
+}
+
+.BtnLeft {
+  clear:both;
+  -webkit-border-radius: 12;
+  -moz-border-radius: 12;
+  width: 220px;
+  height: 60px;
+  margin-left: 22.5%;
+  text-align: center;
+  border-radius: 12px;
+  font-family: Arial;
+  color:  #ffffff;
+  font-size: 20px;
+  background: #36a44e;
+  padding: 10px 20px 10px 20px;
+  border: solid #9a9a9a 6px;
+  text-decoration: none;
+  float:left;
+}
+
+.BtnLeft:hover {
+  background: #1fdb45;
+  text-decoration: none;
+}
+
+.BtnRight {
+  clear:both;
+  position:absolute;
+  -webkit-border-radius: 12;
+  -moz-border-radius: 12;
+  width: 220px;
+  height: 60px;
+  margin-left: 62.5%;
+  text-align: center;
+  border-radius: 12px;
+  font-family: Arial;
+  color:  #ffffff;
+  font-size: 20px;
+  background: #36a44e;
+  padding: 10px 20px 10px 20px;
+  border: solid #9a9a9a 6px;
+  text-decoration: none;
+  float:right;
+  
+}
+
+.BtnRight:hover {
+  background: #1fdb45;
+  text-decoration: none;
+}
+
+.LeftBtnContainer{
+	position: absolute;
+	margin-left:10%;
+	margin-right:0;
+}
+
+.RightBtnContainer{
+	position: absolute;
+	margin-right: 0%;
+	margin-left: 70%;
+}
+
+.DwnBorder{
+	margin-left:20%;
+	margin-right:20%;
+	min-height:150px;
+	border-style:dotted;
+	border-radius:20px;
+	text-align:center;
+	height:250px;
+}
+
+.SelFileBtn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  background: #b1b6ba;
+  padding: 10px 20px 10px 20px;
+  border: solid #a6a9ab 2px;
+  text-decoration: none;
+  width:10%;
+  margin-left:42.5%;
+  margin-top:20px;
+}
+
+.SelFileBtn:hover {
+  background: #797b7d;
+  text-decoration: none;
+}
+
+input[id=ProfileInput], select, textarea{
+	width:50%;
+	padding: 12px;
+	border:1px solid #ccc;
+	border-radius:4px;
+	resize:vertical;
+	
+}
+
+label[id=ProfileLabel]{
+	padding:12px 12px 12px 0;
+	display:inline-block;
+	
+}
+
+input[id=ProfileSubmit]{
+	background-color: #4CAF50;
+	color:white;
+	padding: 12px 20px;
+	border: none;
+	border-radius:4px;
+	cursor:pointer;
+	float:right;
+}
+
+.ProfileContainer{
+	
+	border-radius:5px;
+	background-color:#f2f2f2;
+	padding:20px;
+	margin-left:auto;
+	margin-right:auto;
+	width:60%;
+	
+}
+
+.ProfileLeftCol{
+	float:left;
+	width:100px;
+	margin-top: 6px;	
+	margin-Left:10%;
+	text-align:right;
+	margin-right:auto;
+}
+
+.ProfileRightCol{
+	float:left;
+	width:30%;
+	margin-top: 6px;	
+}
+
+
+.ProfileContainer input{
+	margin-left:100px;
+	margin-bottom:15px;
+	
+}
+
+.ProfileContainer select{
+	margin-left:100px;
+	margin-top:5px;
+	width:173px;
+	max-height:50px;
+	
+}
+
+.ProfileContainer submit{
+	margin-left:300px;
+}
+
+.ProfileContainer label{
+	margin-top:50px;
+}
+
+.ProfileRow{	
+	content:"";
+	display:table;
+	clear:both;	
+}
+
+.AddUserContainer{
+	
+	border-radius:5px;
+	background-color:#f2f2f2;
+	padding:20px;
+	margin-left:auto;
+	margin-right:auto;
+	width:60%;
+	
+}
+
+.AddUserLeftCol{
+	float:left;
+	width:100px;
+	margin-top: 6px;	
+	margin-Left:35%;
+	text-align:right;
+	margin-right:auto;
+}
+
+.AddUserRightCol{
+	float:left;
+	width:30%;
+	margin-top: 6px;	
+}
+
+
+.AddUserContainer input{
+	margin-left:100px;
+	margin-bottom:15px;
+	
+}
+
+.AddUserContainer select{
+	margin-left:100px;
+	margin-top:5px;
+	width:173px;
+	max-height:50px;
+	
+}
+
+.AddUserContainer submit{
+	margin-left:300px;
+}
+
+.AddUserContainer label{
+	margin-top:50px;
+}
+
+.AddUserRow{	
+	content:"";
+	display:table;
+	clear:both;	
+	margin-Left:37.5%;
+}
+.AmendContainer{
+	
+	border-radius:5px;
+	background-color:#f2f2f2;
+	padding:20px;
+	margin-left:auto;
+	margin-right:auto;
+	width:60%;
+	
+}
+
+
+
+.AmendLeftCol{
+	clear: both;
+	float:left;
+	width:100px;
+	margin-top: 6px;	
+	margin-Left:360px;
+	text-align:right;
+	margin-right:auto;
+}
+
+.AmendRightCol{
+	float:left;
+	width:30%;
+	margin-top: 6px;	
+}
+
+.AmendSearchLeftCol{
+	float:left;
+	margin-top: 6px;	
+	margin-Left:412px;
+	text-align:right;
+		
+}
+
+.AmendSearchRightCol{
+	float:left;
+	margin-top: 6px;
+	margin-right: 10px;	
+}
+
+.AmendContainer input{
+	margin-left:100px;
+	margin-bottom:15px;
+	
+}
+
+.AmendContainer select{
+	margin-left:100px;
+	margin-top:5px;
+	width:173px;
+	max-height:50px;
+	
+}
+
+.AmendContainer submit{
+	margin-left:300px;
+	
+}
+
+.AmendContainer select{
+	
+	width: 80%;
+}
+
+.AmendContainer label{
+	margin-top:50px;
+}
+
+.AmendRow{	
+	content:"";
+	display:table;
+	clear:both;	
+}
+.AmendSub{
+	float: left;
+	margin-top: 6px;
+	margin-left: 5px;
+}
+
+
+.AmendTbl{
+	
+	width: 94.75%;
+	margin-Left:auto;
+	margin-right:auto;
+	text-align:center;
+	border:1px;
+	box-sizing: border-box;
+     -webkit-box-sizing:border-box;
+     -moz-box-sizing: border-box;
+}
+
+.AmendTbl input{
+	
+	width:100%;
+	clear:both;
+	margin:0;
+	
+}
+
+.AmendTbl select{
+	
+	width:100%;
+	clear:both;
+	margin:0;
+	
+}
+
+.UploadContainer{
+	
+	border-radius:5px;
+	background-color:#f2f2f2;
+	padding:20px;
+	margin-left:auto;
+	margin-right:auto;
+	width:60%;
+}
+
+.UploadInput{
+	
+	margin-left: auto;
+	margin-right: auto;
+	float: center;
+}
+.UplBtn{
+	
+	text-align: center;
+}
+
+.AdUplLeft{
+	margin-left: 35%;
+	text-align: right;
+	margin-top: 6px;
+	margin-right: auto;
+	float: left;
+}
+
+.AdUplRight{
+	margin-left: 50px;
+	margin-top: 6px;
+}
+
+
+.ProfileTbl{
+	width: 90%;
+	text-align:center;
+	border:1px;
+	margin-left: auto;
+	margin-right: auto;
+	box-sizing: border-box;
+     -webkit-box-sizing:border-box;
+     -moz-box-sizing: border-box;
+}
+
+.ProfileTbl input{
+	
+	width:100%;
+	clear:both;
+	margin:0;
+	
+}
+
+.ProfileTbl select{
+	
+	width:100%;
+	clear:both;
+	margin:0;
+	
+}
+.DownloadContainer{
+	
+	border-radius:5px;
+	background-color:#f2f2f2;
+	padding:20px;
+	margin-left:auto;
+	margin-right:auto;
+	width:60%;
+}
+
+.DonwloadInput{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	float: center;
+}
+.RemoveContainer{
+	
+	border-radius:5px;
+	background-color:#f2f2f2;
+	padding:20px;
+	margin-left:auto;
+	margin-right:auto;
+	width:60%;
+}
+
+.RemoveInput{
+	text-align: center;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	float: center;
+}
+
+.fileselectdiv{
+	text-align: right;
+	display: inline-block;		
+}
+
+.formpadding{
+	margin-top: 10px;
+}
